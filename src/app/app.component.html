@@ -1,0 +1,30 @@
+<main>
+  <app-title title="Lorem Teste"></app-title>
+  <content>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat massa a nibh malesuada laoreet. Maecenas
+    egestas rhoncus sapien, porttitor consectetur felis consequat eu. Praesent hendrerit nisi ac eros egestas elementum.
+    Curabitur nisl nisl, sodales ac scelerisque ac, pharetra a massa. Proin venenatis mauris quis lacus iaculis,
+    fringilla posuere sapien vehicula. Vivamus sit amet lacinia eros. Nam ornare porttitor sem eu varius.
+  </content>
+  <accordion [isAnimated]="true" class="mb-5 mt-5">
+    <accordion-group heading="teste acc 1" [isOpen]="true">
+      <p>1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat massa a nibh malesuada laoreet.
+        Maecenas egestas rhoncus sapien, porttitor consectetur felis consequat eu.</p>
+    </accordion-group>
+    <accordion-group heading="teste acc 2">
+      <p>2- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat massa a nibh malesuada laoreet.
+        Maecenas egestas rhoncus sapien, porttitor consectetur felis consequat eu.</p>
+    </accordion-group>
+    <accordion-group heading="teste acc 3">
+      <p>3- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat massa a nibh malesuada laoreet.
+        Maecenas egestas rhoncus sapien, porttitor consectetur felis consequat eu.</p>
+    </accordion-group>
+    <accordion-group heading="teste acc 4">
+      <p>4- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat massa a nibh malesuada laoreet.
+        Maecenas egestas rhoncus sapien, porttitor consectetur felis consequat eu.</p>
+    </accordion-group>
+  </accordion>
+
+  {{ 'Botão clicado foi: ' + btnClicked }}
+  <app-buttons [buttons]="buttons" (btnClicked)="btnClicked = $event"></app-buttons>
+</main>
