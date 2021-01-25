@@ -1,4 +1,4 @@
-# Testes unitários com Karma e Jasmine. 
+# Testes unitários com Jasmine. 
 
 <b>Descrição:</b> Exemplo de teste de uso dos espiões, teste de service, botões, conteúdo e chamadas.
 
