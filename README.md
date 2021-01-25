@@ -8,5 +8,4 @@
   <li>TypeScript</li>
   <li>JavaScript</li>
   <li>Jasmine</li>
-  <li>Karma</li>
 </ul>
